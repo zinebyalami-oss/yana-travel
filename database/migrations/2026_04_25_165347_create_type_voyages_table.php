@@ -13,7 +13,7 @@ return new class extends Migration
     {
        Schema::create('type_voyages', function (Blueprint $table) {
             $table->id();
-            $table->string('nomType');
+            $table->string('nomType');  // national // international // omra
             $table->timestamps();
         });
     }
